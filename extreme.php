@@ -1,0 +1,2 @@
+<?php function f($s){$x='trim';$f='floor';$q=function($q,$w=0){return($q>1?"s":"").($w?" and ":", ");};$_=$x($x((($y=$f($s/($t=($h=($j=60*($m=60))*24)*365)))?$y.' year'.$q($y):'').(($d=$f($s/$h%365))?$d.' day'.$q($d):'').(($h=$f($s/$j%24))?$h.' hour'.$q($h):'').(($l=$f($s/$m%60))?$l.' minute'.$q($l,($u=$f($s%60))):'').($u?$u.' second'.$q($u):'')),',');return$_;
+}
