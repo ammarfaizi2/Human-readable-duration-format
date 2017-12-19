@@ -1,0 +1,17 @@
+{
+    "name": "ammarfaizi2/blabla",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ammar Faizi",
+            "email": "ammarfaizi2@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "phpunit/phpunit": "^6.5"
+    },
+    "autoload":{
+        "files": ["formatduration.php"]
+    }
+}
