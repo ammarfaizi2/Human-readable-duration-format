@@ -12,6 +12,6 @@
         "phpunit/phpunit": "^6.5"
     },
     "autoload":{
-        "files": ["formatduration.php"]
+        "files": ["format_duration.php"]
     }
 }
