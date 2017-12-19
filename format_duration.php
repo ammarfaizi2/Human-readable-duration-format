@@ -40,7 +40,7 @@ function format_duration($seconds)
 		return $hours_func($seconds);
 	}
 
-	$days_func = function ($seconds, $par = 0) use ($minutes_func, $hours_func, $daylight) {
+	$days_func = function ($seconds, $par = 0) use ($hours_func, $daylight) {
 		$days = 0;
 		while ($seconds >= $daylight) {
 			$days++;
@@ -53,7 +53,7 @@ function format_duration($seconds)
 		return $days_func($seconds);
 	}
 
-	$years_func = function ($seconds) use ($minutes_func, $days_func, $yearsec) {
+	$years_func = function ($seconds) use ($days_func, $yearsec) {
 		$years = 0;
 		while ($seconds >= $yearsec) {
 			$years++;
