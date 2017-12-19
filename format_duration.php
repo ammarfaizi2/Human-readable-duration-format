@@ -50,8 +50,6 @@ function format_duration($seconds)
 	};
 
 	if ($seconds < ($yearsec = 24 * 3600 * 365)) {
-		var_dump($seconds); var_dump($yearsec);
-		die;
 		return $days_func($seconds);
 	}
 
